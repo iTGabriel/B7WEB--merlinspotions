@@ -1,0 +1,440 @@
+body{
+}
+
+/* ________	Começo do TOPO ________ */
+.innerTop .buttonShow{
+	float: left;
+	display: none;
+	border-radius: 5px;
+	width: 80px;
+
+}
+
+.top{
+	width: 100%;
+	height: 120px;
+}
+
+.innerTop{
+	max-width: 1024px;
+	height: 100%;
+	margin: auto; 
+}
+
+.leftTop{
+	margin-top: 42px;
+	float: left;
+	color: #f14121;
+	font-size: 30px;
+}
+
+.leftTop h3 span{
+	font-weight: bolder;
+}
+
+.leftTop h4{
+	font-style: italic;
+	font-size: 20px;
+	color: #56396b;
+	text-decoration: initial;
+	margin-top: -8px;
+}
+.leftTop h4 span{
+	vertical-align: super;
+}
+
+.innerTop input{
+	float: left;
+	margin-top: 40px;
+	margin-left: 60px;
+	width: 280px;
+	height: 40px;
+	padding-left: 42px;
+	outline: none;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background: url(../img/icon/search_icon.png) no-repeat;
+	background-position: 8.8px 14px;
+}
+
+.rightText{
+	float: left;
+	margin-top: 40px;
+	margin-left: 60px;
+	color: #f14121;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.rightText h4{
+	margin-top: 5px;
+}
+
+.bagBuy{
+	margin-top: 38px;
+	margin-left: 15px;
+	float: left;
+}
+
+.bagBuy h3{
+	margin-left: 46px;
+	margin-top: -28px;
+	font-weight: bolder;
+	color: #939393;
+}
+
+.bagNumber{
+	margin-left: 92px;
+	margin-top: -22px;
+	color: #f14121;
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+/* ________	FIM do TOPO ________ */
+
+
+/* ________	Definições mobile ________ */
+
+.mobileShipping{
+width: 100%;
+height: 28px;
+background-color: #ececec;
+color: #929292;
+display: none; 
+text-align: center;
+font-size: 24px;
+font-style: italic;
+}
+
+.menuMobile{
+	width: 200px;
+	height: 400px;
+	margin-top: 40px;
+	margin-left: 2px;
+	position: absolute;
+	display: none;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.menuMobile span{
+	color: #4f3469;
+	padding-left: 85px;
+	font-size: 25px;
+	cursor: pointer;
+	font-weight: bolder;
+}
+
+.menuMobile ul{
+	background-color: #523468;
+}
+
+.menuMobile li{
+	padding-top: 10px;
+	margin-top: 20px;
+	border-top: 1px solid #fff;
+	color: #edebef;
+	font-size: 20px;
+	background-color: #523468;
+}
+
+
+.menuMobile input{
+	width: 20px;
+	float: left;
+}
+
+.menuMobile .clearance{
+	background-color: #422a53;
+	border: 1px solid #422a53;
+	border-top-width:13.7px; 
+	border-bottom-width: 13.7px;
+	
+}
+
+/* ________	Fim do Mobile ________ */
+
+
+/* ________	Menu / NAV ________ */
+
+.menu{
+	width: 100%;
+	height: 60px;
+	background-color: #523468;
+}
+
+.menu nav{
+	max-width: 1024px;
+	height: 100%;
+	margin: auto; 
+}
+
+.menu li{
+float: left;
+line-height: 60px;
+margin-left: 26px;
+font-style: italic;
+color: #edebef;
+}
+
+.menu li img{
+	margin-left: 12px;
+}
+
+.menu a{
+	color: #fff;
+}
+
+.menu .submenu{
+	position: absolute;
+	background-color: #523468;
+	text-align: center;
+	display: none;
+}
+
+.menu .clearance{
+	margin-top: 5px;
+	background-color: #422a53;
+	border: 1px solid #422a53;
+	border-width: 10px;
+	border-top-width:13.7px; border-bottom-width: 13.7px;
+	border-radius: 5px;
+}
+
+
+.menuLogin {
+	float: right;
+	line-height: 60px;
+}
+
+.menuLogin span{
+	color: #a8a4d3;
+	text-align: center;
+}
+
+/* ________	Fim Menu / NAV ________ */
+
+
+/* ________	Meio do SITE ________ */
+
+.container{
+	width: 100%;
+	height: 805px; 
+}
+
+.innerContainer{
+	max-width: 1024px;
+	height: 100%;
+	margin: auto;
+	font-weight: bolder;
+}
+
+.innerContainer h1{
+	font-size: 25px;
+	margin-top: 14px;
+}
+
+.itens{
+	margin-top: 80px;
+}
+
+.itens{
+	text-align: center;
+
+}
+
+.itens li{
+	margin-bottom: 86px;
+	float: left;
+}
+
+/* ________	FIM do meio ________ */
+
+/* ________	Rodapé do SITE ________ */
+
+footer{
+	width: 100%;
+	height: 270px; 
+	background-color: #e6e6e6;
+	margin-top: 100px;
+}
+
+.innerFooter{
+	max-width: 1024px;
+	height: 100%;
+	margin: auto;
+}
+
+
+.footerLeft{
+	width: 385px;
+	height: 167px;
+	margin-left: 45px;
+	position: absolute;
+	margin-top: 50px;
+}
+
+.enterprise li, .mktRedes li{
+	margin-right: 30px;
+	float: left;
+}
+
+.enterprise a{
+	color: #d73a24;
+	text-decoration: none;
+}
+
+.mktRedes{
+	margin-top: 20px;
+}
+
+.footerLeft p{
+	color: #666666;
+	margin-top: 90px;
+}
+
+.footerRight{
+	height: 175px;
+	width: 435px;
+	background-color: #fff; 
+	float: right;
+	margin-top: 35px;
+	margin-right: 42px;
+	border-radius: 5px;
+}
+
+.footerRight h2{
+	margin-top: 35px;
+	margin-left: 30px;
+	font-style: italic;
+}
+
+.footerRight h3{
+	margin-top: 23px;
+	margin-left: 30px;
+}
+
+.footerRight input{
+	width: 260px;
+	height: 38px;
+	margin-top: 20px;
+	margin-left: 28px;
+	padding-left: 12px;
+}
+
+.footerRight button{
+	width: 115px;
+	height: 42px;
+	margin-top: 20px;
+	margin-right: 15px;
+	outline: none;
+	border-radius: 5px;
+	float: right;
+	background-color: #d73a1e;
+	color: #fff;
+	}
+
+/* ________	FIM ________ */
+
+
+
+/* ________	Definições de responsividade ________ */
+
+	@media only screen and (max-width: 988px){
+	
+	.innerTop .buttonShow{
+		display: block;
+		float: left;
+		margin-top: 48px;
+		margin-right: 5px;
+	}
+
+	.innerTop .leftTop{
+		margin-left: 42px;
+		text-align: center;
+	}
+
+
+	.innerTop input, .rightText, .menu{
+		display: none;
+	}
+
+	.mobileShipping{
+		display: block;
+	}
+
+	.innerContainer{
+		text-align: center;
+		margin-top: 60px;
+	}		
+
+
+	footer{
+		clear: both;
+		height: 350px;
+	}
+
+	footer .enterprise{
+		display: none;
+	}
+
+	footer .footerLeft{
+		margin-top: 150px;
+		margin-left: 180px;
+	}
+
+	footer .footerRight{
+		margin-right: 85px;
+		margin-top: 10px;
+	}
+}
+
+/* ________	Fim das definições ________ */
+
+
+
+
+/* ________	Estilização do background / Caixa preta de fundo quando abre um item ________ */
+.bgBox{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+}
+
+/* ________	Configurações da DIV para conter o menu clicado ________ */
+
+.contentBox{
+position: fixed;
+top: 50%;
+left: 50%;
+background-color: #fff;
+width: 400px;
+height: 400px;
+margin-left: -240px;
+margin-top: -240px;
+padding: 20px;
+display: none;
+border: 1px solid black;
+border-radius: 5px;
+}
+
+.contentBox img{
+margin-top: 100px;
+max-width: 200px;
+}
+
+.contentBox button{
+	font-size: 20px;
+	float: right;
+	background: transparent;
+	outline: none;
+	border: none;
+}
+
+
+/* ________	OBRIGADO ________ */
