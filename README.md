@@ -8,4 +8,4 @@ Primeiro projeto pessoal de treinamento para praticas de front-end.
 
 ## Imagem demonstrativa
 
-![page](assets/img/page.png)
+![page](assets/img/page.jpg)
